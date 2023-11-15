@@ -1,0 +1,18 @@
+.header_content{
+    min-height: 75vh;
+    background:  linear-gradient(rgba(96, 7, 114, 0.445), rgba(150, 6, 61, 0.6)),url("../../images/book2.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+
+.header-title{
+    font-size: 4.2rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+
+.header_text{
+margin-top: -1.8rem;
+margin-bottom: 2.8rem;
+opacity: 0.8;
+max-width: 770px;
+}

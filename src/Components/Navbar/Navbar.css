@@ -1,0 +1,110 @@
+.navbar {
+    padding: 1.8rem 0;
+    box-shadow:rgba(141,39,174,0.3) 0px 10px 15px -3px, rgba(141,39,174,0.3) 0px 4px 6px -2px;
+}
+
+.navbar-brand {
+    width: 90px;
+
+}
+
+.navbar-brand span {
+    margin-left: 2rem;
+}
+
+.brand-and-toggler {
+    width: 100%;
+}
+
+.navbar-content {
+    display: flex;
+    width: 100%;
+}
+
+.navbar-toggler-btn {
+    transition: var(--transition);
+    z-index: 11;
+}
+
+.navbar-collapse {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background: var(--black-color);
+    height: 100%;
+    width: 280px;
+
+    display: flex;
+    padding: 10rem 3rem 0 3rem;
+
+
+    transform: translateX(100%);
+}
+
+.show-navbar-collapse{
+    transform: translateX(0);
+}
+
+.nav-item{
+    margin-top: 1rem;
+}
+.nav-R{
+    background-color: #aa57da; /* Set your desired background color */
+    padding: 10px 10px; /* Adjust padding as needed */
+    border-radius: 5px;
+    margin-left: 15px;
+    align-items: center;
+    color: white;
+    transition: color 0.3s ease;
+  
+}
+.nav-R:hover{
+    
+    background-color: #e60de6; /* Change background color on hover */
+    color: white !important;
+}
+
+.nav-link{
+    transition: var(--transition);
+    
+}
+
+.nav-link:hover{
+    color:var(--purple-color);
+    text-decoration: underline;
+}
+
+@media screen and (min-width:992px) {
+    .navbar-collapse{
+        position: relative;
+        height: auto;
+        padding: 0;
+        width: 100%;
+        background-color: transparent;
+        transform: translateX(0);
+        justify-content: flex-end;
+    }
+  .navbar-toggler-btn{
+    display: none;
+
+  }
+  .nav-item{
+  margin-bottom: 0;
+  margin-left: 2.8rem;
+  }
+  .nav-link{
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-weight: 500!important;
+    opacity: 0.8;
+
+  }
+
+  .navbar-nav{
+    display: flex;
+    
+  }
+
+
+}
