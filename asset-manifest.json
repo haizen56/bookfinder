@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/bookfinder/static/css/main.cd108171.css",
+    "main.js": "/bookfinder/static/js/main.1d032129.js",
+    "static/media/book2.jpg": "/bookfinder/static/media/book2.95b1a6c6412832c1c68e.jpg",
+    "static/media/cover_not_found.jpg": "/bookfinder/static/media/cover_not_found.69846940c7af3e651508.jpg",
+    "static/media/book-logo-2.png": "/bookfinder/static/media/book-logo-2.e382bc19d67fc5e60d4a.png",
+    "static/media/books2.jpeg": "/bookfinder/static/media/books2.01981c7e17f1b8a761fa.jpeg",
+    "index.html": "/bookfinder/index.html",
+    "static/media/loader.svg": "/bookfinder/static/media/loader.a3343f12420f3160e32c5317638f2198.svg",
+    "main.cd108171.css.map": "/bookfinder/static/css/main.cd108171.css.map",
+    "main.1d032129.js.map": "/bookfinder/static/js/main.1d032129.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd108171.css",
+    "static/js/main.1d032129.js"
+  ]
+}
